@@ -5,19 +5,10 @@ object caperucita {
   method peso() {
     return peso + canasta.peso()
   }
-
 }
-
-object abuelita {
-  const peso = 50
-
-  method peso() = peso 
-}
-
 object manzana{
   method peso() = 0.2 
 }
-
 object canasta {
   var cantidad = 6
 
