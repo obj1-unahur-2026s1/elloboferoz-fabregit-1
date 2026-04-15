@@ -1,6 +1,3 @@
-import caperucita.caperucita
-import caperucita.abuelita
-
 object feroz {
   var peso = 10
   const pesoInicial = 10
@@ -22,16 +19,3 @@ object feroz {
     peso = peso - 1
   }
 }
-
-object cazador{
-  method peso() = 100
-  method causarCrisisAlLobo() {
-    feroz.sufrirCrisis()
-  }
-}
-
-object hamburguesa{
-  method peso() =  20
-}
-object bosque {} 
-object casaAbuelita{}
